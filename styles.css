@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+    background-color: #1992d4;
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 3vh;
+}
+
+.sidebar-logo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.sidebar-dashboard-icon {
+    justify-self:  center;
+    width: 4.5vw;
+    height: 9vh;
+}
+
+.sidebar-text-dashboard {
+    font-size: 3vh;
+    justify-self: flex-start;
+}
+
+.sidebar-main {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.sidebar-text {
+    align-self: center;
+    font-size: 2.75vh;
+}
+
+.sidebar-main-icon {
+    width: 3vw;
+    height: 6vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.sidebar-help {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+}
+
+.messages {
+    max-height: 80%;
+}
+
+.main-area {
+    background-color: green;
+    display: grid;
+    grid-template-rows: 1fr 4.5fr;
+}
+
+.top-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
