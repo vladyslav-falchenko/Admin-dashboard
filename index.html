@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Admin-dashboard</title>
 </head>
 <body>
@@ -37,9 +40,31 @@
         </div>
     </div>
     <div class="main-area">
-        <div class="top-section">
-            <div>
-                
+        <div class="header">
+            <div class="search-and-user-info">
+                <div class="search-section">
+                    <img class="search-icon" src="images/search.svg" alt="search icon">
+                    <input type="text">
+                </div>
+                <div></div>
+                <div class="user-info-section">
+                    <img class="notification-icon" src="images/bell.svg" alt="notification icon">
+                    <img class="current-user-image-small" src="images/stare.png" alt="small user image">
+                    <div class="current-user-name">Vladyslav Falchenko</div>
+                </div>
+            </div>
+            <div class="greeting-and-actions">
+                <div class="greetings">
+                    <img class="user-image-big" src="images/stare.png" alt="big user image"></img>
+                    <div class="greeting">Hi there,</div>
+                    <div class="name-and-tag">Vladyslav Falchenko (@xyz)</div>
+                </div>
+                <div></div>
+                <div class="actions">
+                    <button class="button">New</button>
+                    <button class="button">Upload</button>
+                    <button class="button">Share</button>
+                </div>
             </div>
         </div>
         <div class="main-section"></div>
