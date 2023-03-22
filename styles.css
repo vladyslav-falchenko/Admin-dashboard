@@ -313,6 +313,10 @@ button {
     margin-bottom: 50px;
 }
 
+.trending-user-tag {
+    font-weight: 600;
+}
+
 .trending-user {
     display: grid;
     grid-template-columns: 1fr 4fr;
